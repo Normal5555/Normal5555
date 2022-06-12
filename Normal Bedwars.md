@@ -2,6 +2,35 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 local Window = Library.CreateLib("Normal Bedwars", "Ocean")
 
+local killauraswing = {["Enabled"] = true}
+
+local killaurasound = {["Enabled"] = true}
+
+local killaurahitdelay = {["Value"] = 2}
+
+local killaurasoundval = {["Value"] = 1}
+
+local speedval = {["Value"] = 1}
+
+local testtogttt = {["Value"] = 20}
+
+local ACC1
+
+local ACC2
+
+local antivoidtransparent = {["Value"] = 50}
+
+local antivoidcolor = {["Hue"] = 0.93, ["Sat"] = 1, ["Value"] = 1}
+
+local reachval = {["Value"] = 18}
+
+local autoclick = {["Enabled"] = true}
+
+local origC0 = game.ReplicatedStorage.Assets.Viewmodel.RightHand.RightWrist.C0
+
+local killaurafirstpersonanim = {["Value"] = true}
+
+local killauraanimval = {["Value"] = "Cool"}
 
 TabSection:NewToggle("KillAura", "Autoswing the sword if someone is near you", function(state)
 
